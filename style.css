@@ -1,0 +1,32 @@
+li{
+    display: inline-flex;
+    list-style-type: none;
+}
+nav{
+    background: midnightblue;
+    height: 100%;
+    padding: 15px;
+    border-top: 1px solid grey;
+}
+li+li{
+    border-left: 1px solid white;
+    padding-left: 10%;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+    color: white;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding-left: 3%;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: grey
+}
