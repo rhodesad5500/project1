@@ -28,5 +28,7 @@ header{
 }
 
 body{
-    background-color: grey
+    background-color: grey;
+    margin: 0;
+    padding: 0;
 }
