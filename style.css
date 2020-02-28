@@ -2,15 +2,20 @@ li{
     display: inline-flex;
     list-style-type: none;
 }
+li > a{
+    text-decoration: none;
+    color: white;
+}
 nav{
-    background: midnightblue;
     height: 100%;
     padding: 15px;
-    border-top: 1px solid grey;
+    border: 1px solid rgb(170, 170, 170);
+    border-top: 0;
+    border-radius: 3px;
 }
 li+li{
     border-left: 1px solid white;
-    padding-left: 10%;
+    padding-left: 12%;
 }
 ul{
     display: flex;
@@ -25,10 +30,41 @@ header{
     color: white;
     padding-left: 3%;
     font-family: sans-serif;
+    opacity: .7;
 }
 
 body{
-    background-color: grey;
+    background-image: url("img/bg2.png");
     margin: 0;
     padding: 0;
+    color: white;
 }
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* /margin-top: 10%; */
+}
+
+#below, #above{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+#above{
+    margin-top: 7%;
+}
+
+#front{
+    border: 1px solid #07686e;
+    border-radius: 2px;
+}
+
+
+
+
