@@ -1,8 +1,8 @@
-li{
+.top-row >li{
     display: inline-flex;
     list-style-type: none;
 }
-li > a{
+.top-row > li > a{
     text-decoration: none;
     color: white;
 }
@@ -13,11 +13,11 @@ nav{
     border-top: 0;
     border-radius: 3px;
 }
-li+li{
+.top-row > li+li{
     border-left: 1px solid white;
     padding-left: 12%;
 }
-ul{
+.top-row{
     display: flex;
     justify-content: space-evenly;
     text-align: right;
@@ -65,9 +65,16 @@ html{
     margin-top: 7%;
 }
 
-#front{
+#front, #album-art{
     border: 1px solid #07686e;
     border-radius: 2px;
+}
+
+#album-art{
+    position: absolute;
+    top: 40%;
+    width: 180px;
+    height: 180px;
 }
 
 .logorow{
@@ -78,6 +85,29 @@ html{
 
 .logo{
     width: 10%;
+}
+
+.track-list{
+    list-style-type: none;
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    background-color: rgb(170, 170, 170);
+    padding-left: 0px;
+}
+
+.track-list > li{
+    padding: 10px 40px 10px 40px;
+    border: 1px solid black;
+}
+
+.track-list > li:hover{
+    background-color: rgb(120, 120, 120);
+    cursor: pointer;
 }
 
 

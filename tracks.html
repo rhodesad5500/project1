@@ -4,8 +4,9 @@
 <head>
     <link rel = "stylesheet" type = "text/css" href = "style.css">
     <title>
-        staticwavez
+        staticwavez: tracks
     </title>
+    <script defer src = "tracksScript.js"></script>
 </head>
 
 <body>
@@ -14,7 +15,7 @@
         <h2>Static Wavez</h2>
     </header>
     <nav>
-        <ul>
+        <ul class = 'top-row'>
             <li><a href = "index.html">Home</a></li>
             <li><a href = "about.html">About</a></li>
             <li><a href = "tracks.html">Tracks</a></li>
@@ -22,6 +23,21 @@
         </ul>
     </nav>
 
-    <p>Damn it empty in here lmao</p>
+    <ul class = 'track-list'>
+        <li id = 'track1'>Track1</li>
+        <li id = 'track2'>Track2</li>
+        <li id = 'track3'>Track3</li>
+        <li id = 'track4'>Track4</li>
+        <li id = 'track5'>Track5</li>
+    </ul>
+
+    <div id = 'root'>
+        <img id = "album-art" src = "img/track1.png">
+    </div>
+
+    <div id = "below">
+        <h2>Track Name</h2>
+        <audio controls><source src = "audio/traveling_hive.wav" type = "audio/wav"></audio>
+    </div>
 </body>
 </html>
