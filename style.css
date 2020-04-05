@@ -80,7 +80,7 @@ html{
 .logorow{
     position: absolute;
     top: 50%;
-    left: 42%;
+    left: 40.5%;
 }
 
 .logo{
@@ -96,8 +96,9 @@ html{
     justify-content: center;
     align-items: center;
     flex-direction: column; */
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(100, 100, 100);
     padding-left: 0px;
+    opacity: 80%;
 }
 
 .track-list > li{
@@ -110,5 +111,23 @@ html{
     cursor: pointer;
 }
 
+.track-player{
+    padding-top: 80px;
+}
 
+.about-page{
+    text-align: center;
+    padding-top: 15%;
+    font-size: xx-large;
+    font-family: sans-serif;
+    color: rgb(200, 200, 200);
+}
 
+.about-gif{
+    position: absolute;
+    padding-top: 7%;
+}
+
+#right-gif{
+    padding-left: 70%;
+}
